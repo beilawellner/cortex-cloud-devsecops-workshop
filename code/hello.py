@@ -24,6 +24,7 @@ SERVICE_ACCOUNT_KEY = """
 
 def main():
     print("hello from GCP (insecure demo mode)")
+    print("test")
 
     # Parse the JSON key from the string
     service_account_info = json.loads(SERVICE_ACCOUNT_KEY)
