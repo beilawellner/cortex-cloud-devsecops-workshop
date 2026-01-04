@@ -34,7 +34,7 @@ def main():
 
     print("Buckets in project", service_account_info["project_id"])
     for bucket in client.list_buckets():
-        print(" -", bucket.name)
+        print(" -")
 
 
 if __name__ == "__main__":
